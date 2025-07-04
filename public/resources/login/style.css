@@ -34,7 +34,7 @@
   font-family: outfit, serif;
 }
 .form hr{
-  color: deepskyblue;
+  color: dodgerblue;
   width: 100%;
 }
 .form input:not([type="checkbox"])
@@ -63,7 +63,7 @@ label
   font-family: outfit, serif;
   text-transform: uppercase;
   outline: 0;
-  background-color: deepskyblue;
+  background-color: dodgerblue;
   width: 100%;
   border: 0;
   border-radius: 25px;
@@ -122,8 +122,8 @@ body {
  /* background-image:url("/resources/css/img/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;*/
-  background-color: deepskyblue;
-  /*background-image: url('/resources/images/background.jpg');
+  background-color: dodgerblue;
+  background-image: url('/resources/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;*/
   -webkit-font-smoothing: antialiased;

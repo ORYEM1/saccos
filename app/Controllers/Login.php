@@ -5,12 +5,6 @@ namespace App\Controllers;
 use App\Models\BaseModel;
 class Login extends BaseController
 {
-
-
-
-
-    protected $base_model;
-
     public function index()
     {
         if($this->request->getPost('username'))

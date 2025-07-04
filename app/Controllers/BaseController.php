@@ -35,7 +35,9 @@ abstract class BaseController extends Controller
      *
      * @var list<string>
      */
-    protected $helpers = [];
+    protected $helpers = ['url','general','text','form','my_form','menu','query','permission'];
+    protected \App\Models\BaseModel $base_model;
+    protected \CodeIgniter\Session\Session $session;
 
     /**
      * Be sure to declare properties for any property fetch you initialized.
@@ -51,8 +53,14 @@ abstract class BaseController extends Controller
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
-        // Preload any models, libraries, etc, here.
+        //Models
+        $this->base_model = new \App\Models\BaseModel();
 
-        // E.g.: $this->session = service('session');
+        //Libraries
+        $this->session = \Config\Services::session();
+
+        //Helpers
+        helper($this->helpers);
+        date_default_timezone_set(getenv('locale.timezone'));
     }
 }

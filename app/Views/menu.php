@@ -8,41 +8,29 @@
 
 
             //stocks
-            $menu['Stocks']=array('href'=>'#','class'=>'has-sub','icon_class'=>'fa fa-cubes');
-            $menu['Stocks']['submenu']['Stocks']=array('href'=>'/stocks');
-            $menu['Stocks']['submenu']['New Stock']=array('href'=>'/new_stock');
+            $menu['Loans']=array('href'=>'#','class'=>'has-sub','icon_class'=>'fa fa-cubes');
+            $menu['Loans']['submenu']['Loans']=array('href'=>'/loans');
+            $menu['Loans']['submenu']['New Loans']=array('href'=>'/new_loans');
+            $menu['Loans']['submenu']['Overdue Loans']=array('href'=>'/overdue_loans');
 
 
 
-            $menu['Products']=array('href'=>'#','class'=>'has-sub');
-            $menu['Products']['submenu']['All Products']=array('href'=>'/products');
-            $menu['Products']['submenu']['add_to_order']=array('href'=>'/add_to_order');
+            $menu['Loan_request']=array('href'=>'#','class'=>'has-sub');
+            $menu['Loan_request']['submenu']['All Loan_requests']=array('href'=>'/loan_request');
+            $menu['Loan_request']['submenu']['New Loan Requests']=array('href'=>'/new_loan_request');
 
-            //sales
-            $menu['Sales']=array('href'=>'#','class'=>'has-sub','icon_class'=>'fa fa-bar-chart');
-            $menu['Sales']['submenu']['Daily']=array('href'=>'/daily');
-            $menu['Sales']['submenu']['Weekly']=array('href'=>'/weekly');
-            $menu['Sales']['submenu']['Monthly']=array('href'=>'/monthly');
-            //$menu['Sales']['submenu']['Report']['submenu']['Annually']=array('href'=>'/annually');
 
-            //orders
-            $menu['Orders']=array('href'=>'#','class'=>'has-sub','icon_class'=>'fa fa-shopping-cart');
-            $menu['Orders']['submenu']['Orders']=array('href'=>'/orders');
-            $menu['Orders']['submenu']['Order Items']=array('href'=>'/order_items');
-            $menu['Orders']['submenu']['Cancelled Orders']=array('href'=>'/orders/status/cancelled');
-            $menu['Orders']['submenu']['Pending Orders']=array('href'=>'/orders/status/pending');
+            $menu['Collections']=array('href'=>'#','class'=>'has-sub');
+            $menu['Collections']['submenu']['All Loan_requests']=array('href'=>'/loan_request');
+            $menu['Collections']['submenu']['New Loan Requests']=array('href'=>'/new_loan_request');
 
-            //$menu['Order Items']=array('href'=>'#','class'=>'has-sub','icon_class'=>'fa fa-shopping-cart');
-            //$menu['Order Items']['submenu']['Order Items']=array('href'=>'/order_items');
 
-            //transactions
-            $menu['Transactions']=array('href'=>'/transactions','class'=>'has-sub','icon_class'=>'fa fa-money');
+            $menu['Disbursment']=array('href'=>'#','class'=>'has-sub');
+            $menu['Disbursment']['submenu']['All Loan_requests']=array('href'=>'/loan_request');
+            $menu['Disbursment']['submenu']['New Loan Requests']=array('href'=>'/new_loan_request');
 
 
 
-
-            //testing
-            //$menu['Order']['submenu']['New Order']=array('href'=>'#','class'=>'has-sub');
 
             $menu['Admin Menu']=array('href'=>'#','class'=>'has-sub');
             $menu['Admin Menu']['submenu']['Users']=array('href'=>'/users');

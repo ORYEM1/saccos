@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-//$routes->get('/', 'Home::index');
+$routes->get('/', 'Save::index');
 $routes->match(['get', 'post'],'/users', 'Users::index');
 $routes->match(['get', 'post'],'/users/new_user', 'Users::new_user');
 $routes->match(['get', 'post'],'/login', 'Login::index');

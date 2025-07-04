@@ -7,8 +7,8 @@
 div#data_table
 {
     padding-top: 5px;
-    font-size:20px;
-    width: 100%;
+    font-size:14px;
+    width: 80%;
     display: block;
     overflow-x: auto;
     margin: auto;
@@ -18,7 +18,7 @@ div#data_table
 
 thead tr
 {
-    background-color: lightseagreen;
+    background-color: dodgerblue;
     color: white;
 }
 
@@ -33,7 +33,7 @@ table.data
 {
     width:100% !important;
     border-collapse: collapse;
-    font-size: 20px;
+    font-size: 14px;
 }
 table.data a
 {
@@ -42,7 +42,7 @@ table.data a
 }
 table.data a:hover
 {
-    color: lightseagreen;
+    color: dodgerblue;
     cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ table.data tr.dtrg-group
 
 table.data tr.dtrg-group td
 {
-    background:lightseagreen;
+    background:dodgerblue;
     font-weight:normal; 
     border:none;
     padding: 0 0 0 5px;
@@ -103,7 +103,7 @@ table.data td.number_col,table.datath.number_col
 table.data td.icon_col,table.data th.icon_col
 {
     text-align: right;
-    width: 25px !important;
+    width: 16px !important;
 }
 table.data th.number_col
 {
@@ -147,7 +147,7 @@ table.data tr.dtrg-group th
     width: 10%;
     color: white;
     justify-content: center;
-    background-color: lightseagreen;
+    background-color: dodgerblue;
     margin-left: 850px;
     border-radius: 20px;
 
@@ -163,7 +163,7 @@ table.data tr.dtrg-group th
 #data_footer a.button
 {
     color: white;
-    background-color: lightseagreen;
+    background-color: dodgerblue;
     align-items: center;
     align-content: center;
 }
@@ -173,7 +173,7 @@ table.data tr.dtrg-group th
     list-style-type: none;
     display: inline-block;
     padding: 0;
-    color: lightseagreen;
+    color: dodgerblue;
     align-items: center;
     align-content: center;
 }
@@ -215,7 +215,7 @@ div.dt-processing {
             width: 13px;
             height: 13px;
             border-radius: 50%;
-            background: lightseagreen;
+            background: dodgerblue;
             animation-timing-function: cubic-bezier(0, 1, 1, 0);
 
             &:nth-child(1) {

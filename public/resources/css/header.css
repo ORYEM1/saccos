@@ -14,8 +14,8 @@
 }
 #header_container
 {
-    width: 100%;
-    background-color: lightseagreen;
+    width: 80%;
+    background-color: dodgerblue;
     margin: auto;
     box-shadow: 0 0 5px rgba(1, 1, 1, 0.7);
     border-radius: 5px 5px 0 0;
@@ -24,10 +24,10 @@
 #page_header
 {
     position: fixed;
-    font-size: 20px;
+    font-size: 16px;
     z-index: 10;
     width: 100%;
-    background-color: lightseagreen;
+   /* background-color: deepskyblue;*/
 }
 #logo
 {
